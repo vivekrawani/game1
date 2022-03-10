@@ -31,13 +31,13 @@ function displayResult(userChoice, computerChoice){
         document.querySelector("#result").textContent = "DRAW!";
     }
     else if ((userChoice == "snake" && computerChoice == "water")||(userChoice == "water" && computerChoice == "gun")||(userChoice == "gun" && computerChoice == "snake")) {
-        document.querySelector("#result").textContent = "You win!";
+        document.querySelector("#result").textContent = "You won!";
         userScore++;
         document.querySelector("#user-score").textContent = userScore;
         
     }   
     else {
-        document.querySelector("#result").textContent = "You lose!";
+        document.querySelector("#result").textContent = "You lost!";
         computerScore++;
         document.querySelector("#computer-score").textContent = computerScore;
     }

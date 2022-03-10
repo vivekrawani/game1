@@ -1,0 +1,19 @@
+
+img{
+    width:100px;    
+}
+img:hover{
+    box-shadow: 5px 5px 5px rgba(170, 169, 169, 0.685);
+}
+img:active{
+    box-shadow: 5px 5px 5px rgb(90, 90, 90);
+    transform: translateY(3px);
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
